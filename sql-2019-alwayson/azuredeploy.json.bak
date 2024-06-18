@@ -1,13 +1,13 @@
     {
     "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
-    "contentVersion": "1.0.0.0",
+    "contentVersion": "1.2024.6.18",
         "parameters": {
             "_artifactsLocation": {
                 "type": "string",
                 "metadata": {
                     "description": "Artifacts base url"
                 },
-                "defaultValue": "https://raw.githubusercontent.com/Azure/AzureStack-QuickStart-Templates/master/sql-2016-alwayson"
+                "defaultValue": "https://raw.githubusercontent.com/m12net/AzSH-qS/main/sql-2019-alwayson"
             },
             "adminUsername": {
                 "type": "string",
